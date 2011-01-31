@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<script>
+			chrome.contextMenus.create({
+				"title": "Send to OTR",
+				"contexts": ["link"],
+				"onclick" : clickHandler
+			});
+
+			var clickHandler = function(e) {
+				/*
+				var url = e.pageUrl;
+				chrome.tabs.create({"url": url});
+				*/
+			};
+
+			//chrome.browserAction.onClicked.addListener(function (t) {
+			//	alert(t.url);
+			//});
+		</script>
+	</head>
+</html>
