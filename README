@@ -1,0 +1,6 @@
+This little tool creates a context menu for otrkey hyperlinks to send them to Super OTR (to download/decode/cut).
+
+[DONE] Start project and upload it to Github :-)
+
+[OPEN] Restrict context menu to Mac OS because Super OTR is Mac software
+[OPEN] Check if Super OTR is installed before sending the link to it
